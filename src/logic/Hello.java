@@ -7,7 +7,7 @@ public class Hello {
 		System.out.println(Hello.greetingMessage());
 		
 		int[] array = {5,4,3,2,1};
-		
+		int a;
 		System.out.println(Hello.arrayToString("Array", array));
 		array = Hello.bubbleSort(array);
 		System.out.println(Hello.arrayToString("Sorted Array", array));
